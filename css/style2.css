@@ -1,0 +1,59 @@
+.html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Neucha', cursive;
+    background-image:
+    url("../img/фон.jpg");
+    background-attachment:fixed ;
+    }
+
+    .title{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Lobster', cursive;
+        flex-direction: column;
+        font-size: 40px;
+        color: rgb(191, 104, 176);
+        margin-top: 5%;
+        }
+
+.phone{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 5%;
+}
+
+.phone_img{
+height: 600px;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 15px;
+
+    border: 3px solid rgb(218, 141, 215);
+    border-radius: 30%;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration:none;
+    box-align: center;
+    padding: 8px 40px ;
+    transition:  .2s linear;
+    margin-bottom: 5%;
+}
+
+.btn:hover {
+    background-color:#fafafa75;
+    color: rgb(189, 54, 106);
+}
+
+.knopka{
+margin-top: 3%;
+display: flex;
+justify-content: center;
+}
